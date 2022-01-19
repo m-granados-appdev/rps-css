@@ -1,0 +1,75 @@
+*
+{ 
+  /* border: thin red dashed; */
+  box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Unica One', cursive;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin: 0px;
+    height: 50vh;
+}
+
+.container{
+  width: 960px;
+  border: 3px blue solid;
+  }
+.row
+{
+  display:flex;
+  justify-content:space-between;
+
+}
+
+.row-center{
+  display:flex;
+  justify-content:center;
+}
+
+.mb
+  {
+    margin-bottom: 10px;
+  }
+
+.button {
+    /* margin:10px; */
+    color:teal; 
+    border: thin teal solid; 
+    border-radius: 10px; 
+    text-decoration: none;
+    width: 100%;
+    display:inline-block;
+    text-align: center;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
+}
+
+.player-card
+{
+  border:thin green solid;
+  width: 49%
+  
+}
+
+.computer-card
+{
+  border:thin red solid;
+  width: 49%;
+}
+
+.outcome-card
+{
+  border:thin red solid;
+  width: 66%;
+  text-align:center;
+  background-color: pink;
+}
+
+.one-third
+{
+  width: 32%;
+}
